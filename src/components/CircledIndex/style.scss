@@ -1,0 +1,15 @@
+@import "../../style/typography.scss";
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    background: #585481;
+    color: white;
+
+    @include text-1();
+}

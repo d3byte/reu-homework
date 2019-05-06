@@ -1,0 +1,75 @@
+/*
+    Typography
+*/
+@mixin headline {
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+@mixin headline-1 {
+    @include headline();
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+@mixin headline-2 {
+    @include headline();
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0125rem;
+}
+
+
+@mixin sub-title-1 {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.009375em;
+}
+
+@mixin sub-title-2 {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 500;
+    letter-spacing: 0.0071428571em;
+}
+
+@mixin text {
+    font-weight: 400;
+}
+
+@mixin text-1 {
+    @include text();
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125em;
+}
+
+@mixin text-2 {
+    @include text();
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0178571429em;
+}
+
+@mixin button {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    letter-spacing: 0.0892857143em;
+}
+
+@mixin caption {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.0333333333em;
+}
+
+@mixin overline {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.1666666667em;
+}

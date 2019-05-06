@@ -1,0 +1,12 @@
+@import "../../../../style/spaces.scss";
+
+.question-line {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: $space;
+        }
+    }
+}
