@@ -17,7 +17,7 @@ function Main ({ questions }) {
     
     return (
         <StateProvider initialState={initialState} reducer={reducer}>
-            <Container>
+            <Container bordered>
                 <QuestionLine />
             </Container>
         </StateProvider>

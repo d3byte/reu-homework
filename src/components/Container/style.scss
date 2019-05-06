@@ -5,4 +5,8 @@
     border-radius: 4px;
     background: white;
     box-sizing: border-box;
+
+    &--bordered {
+        border: 1px solid #D9D9D9;
+    }
 }
