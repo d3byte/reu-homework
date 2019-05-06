@@ -1,26 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import { StateProvider } from '../../context';
-import { reducer } from './reducer';
+import QuestionLine from './components/QuestionLine';
+import QuestionActions from './components/QuestionActions';
+
+import Container from '../../components/Container';
 
 import './style.scss';
 
-import QuestionLine from './components/QuestionLine';
-import Container from '../../components/Container';
-
-function Main ({ questions }) {
-    const initialState = {
-        questions,
-        currentQuestion: (questions || [])[0] || {},
-    }
-    
-    
+function Main () {
     return (
-        <StateProvider initialState={initialState} reducer={reducer}>
-            <Container bordered>
-                <QuestionLine />
-            </Container>
-        </StateProvider>
+        <Container className="main">
+            <QuestionLine />
+            <QuestionActions />
+        </Container>
     );
 };
 export default Main;

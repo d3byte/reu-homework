@@ -1,9 +1,9 @@
 export const reducer = (state, action) => {
 	switch (action.type) {
-	  case 'changeTheme':
+	  case 'select-question':
 			return {
 				...state,
-				theme: action.newTheme
+				currentQuestion: action.payload
 			};
 		
 	  default:

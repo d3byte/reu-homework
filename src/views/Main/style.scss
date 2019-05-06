@@ -1,0 +1,9 @@
+@import "../../style/spaces.scss";
+
+.main {
+    background: transparent;
+
+    .question-line {
+        margin-bottom: $space * 2;
+    }
+}

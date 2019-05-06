@@ -5,6 +5,17 @@
     align-items: center;
 
     &__item {
+        cursor: pointer;
+        transition: 0.3s background ease-in-out;
+
+        &--active {
+            background: #3626A7;
+        }
+
+        &--passed {
+            background: #5E8C61;
+        }
+
         &:not(:last-child) {
             margin-right: $space;
         }

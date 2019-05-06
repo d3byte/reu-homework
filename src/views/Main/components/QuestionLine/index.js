@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { useStateValue } from '../../../../context';
+import { selectQuestion } from '../../../../utils/selectQuestion';
+import { useStateValue } from '../../../../utils/context';
 
 import Container from '../../../../components/Container';
 import CircledIndex from '../../../../components/CircledIndex';
@@ -11,10 +12,15 @@ function QuestionLine () {
     const [{ questions, currentQuestion }, dispatch] = useStateValue();
 
     return (
-        <Container className="question-line">
+        <Container bordered className="question-line">
             {
                 questions.map((question, index) => (
-                    <CircledIndex className="question-line__item" index={index + 1} />
+                    <CircledIndex
+                        key={index}
+                        index={index + 1}
+                        className={`question-line__item ${question.id === currentQuestion.id ? 'question-line__item--active' : ''}`}
+                        onClick={e => selectQuestion(question, dispatch)}
+                    />
                 ))
             }
         </Container>

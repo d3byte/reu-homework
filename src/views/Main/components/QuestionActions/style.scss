@@ -1,0 +1,22 @@
+@import "../../../../style/spaces.scss";
+
+.question-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__action {
+        transition: 0.3s ease-in-out;
+
+        &--primary {
+            background: #3626A7;
+            color: white;
+
+            &:disabled {
+                background: white;
+                color: #333;
+                opacity: 0.5;
+            }
+        }
+    }
+}
