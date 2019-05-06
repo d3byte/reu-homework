@@ -12,8 +12,12 @@
             background: #3626A7;
         }
 
-        &--passed {
+        &--correct {
             background: #5E8C61;
+        }
+
+        &--skipped {
+            background: #31393C;
         }
 
         &:not(:last-child) {

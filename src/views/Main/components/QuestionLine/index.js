@@ -18,7 +18,12 @@ function QuestionLine () {
                     <CircledIndex
                         key={index}
                         index={index + 1}
-                        className={`question-line__item ${question.id === currentQuestion.id ? 'question-line__item--active' : ''}`}
+                        className={`
+                            question-line__item 
+                            ${question.id === currentQuestion.id ? 'question-line__item--active' : ''}
+                            ${question.isSkipped ? 'question-line__item--skipped' : ''}
+                            ${question.isCorrect ? 'question-line__item--correct' : ''}
+                        `}
                         onClick={e => selectQuestion(question, dispatch)}
                     />
                 ))

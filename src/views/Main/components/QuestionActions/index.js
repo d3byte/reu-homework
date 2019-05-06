@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { selectQuestion } from '../../../../utils/selectQuestion';
+import { editQuestion } from '../../../../utils/editQuestion';
 import { useStateValue } from '../../../../utils/context';
 
 import Button from '../../../../components/Button';
@@ -12,27 +13,39 @@ function QuestionActions () {
 
     const currentQuestionIndex = questions.indexOf(currentQuestion);
 
-    const skipQuestion = () => selectQuestion(
-        {
-            isSkipped: true,
-            ...questions[currentQuestionIndex + 1]
-        },
-        dispatch
-    );
+    const skipQuestion = () => {
+        if (currentQuestionIndex !== questions.length - 1) {
+            editQuestion(
+                {
+                    ...currentQuestion,
+                    isSkipped: true
+                },
+                dispatch
+            )
+            selectQuestion(
+                questions[currentQuestionIndex + 1],
+                dispatch
+            );
+        }
+    }
 
     const nextQuestion = () => {
         // Check question answer(s)
         const isQuestionCorrect = true;
-        return selectQuestion(
+        editQuestion(
             {
+                ...currentQuestion,
                 isCorrect: isQuestionCorrect,
-                ...questions[currentQuestionIndex + 1]
             },
+            dispatch
+        );
+        selectQuestion(
+            questions[currentQuestionIndex + 1],
             dispatch
         )
     };
 
-    const wasAnswerGiven = false;
+    const wasAnswerGiven = true;
 
     return (
         <div className="question-actions">
