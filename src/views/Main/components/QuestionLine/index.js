@@ -25,7 +25,7 @@ function QuestionLine () {
 
     return (
        <>
-        <p className="question-line__">Осталось {timeLeftText}</p>
+        <p className="question-line__caption">Осталось {timeLeftText}</p>
          <Container bordered className="question-line">
             {
                 questions.map((question, index) => (

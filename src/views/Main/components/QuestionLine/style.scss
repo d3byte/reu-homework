@@ -1,11 +1,16 @@
 @import "../../../../style/spaces.scss";
+@import "../../../../style/typography.scss";
 
 .question-line {
     display: flex;
     align-items: center;
 
+    &__caption {
+        margin: 0 0 $space--smaller;
+        @include caption();
+    }
+
     &__item {
-        cursor: pointer;
         transition: 0.3s background ease-in-out;
 
         &--active {
