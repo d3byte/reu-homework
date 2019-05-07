@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { selectQuestion } from '../../../../utils/selectQuestion';
 import { useStateValue } from '../../../../utils/context';
-import { useInterval } from '../../../../utils/useInterval';
 
 import Container from '../../../../components/Container';
 import CircledIndex from '../../../../components/CircledIndex';
@@ -10,23 +9,10 @@ import CircledIndex from '../../../../components/CircledIndex';
 import './style.scss';
 
 function QuestionLine () {
-    const [{ questions, currentQuestion, timeLeft }, dispatch] = useStateValue();
-
-    const intervalDelay = timeLeft === 0 ? null : 1000;
-
-    useInterval(() => {
-        dispatch({
-            type: 'tick-time',
-            payload: timeLeft - 1
-        })
-    }, intervalDelay);
-
-    const timeLeftText = timeLeft > 60 ? Math.floor(timeLeft / 60) + ' минут' : timeLeft + ' секунд';
+    const [{ questions, currentQuestion }, dispatch] = useStateValue();
 
     return (
-       <>
-        <p className="question-line__">Осталось {timeLeftText}</p>
-         <Container bordered className="question-line">
+        <Container bordered className="question-line">
             {
                 questions.map((question, index) => (
                     <CircledIndex
@@ -42,7 +28,6 @@ function QuestionLine () {
                 ))
             }
         </Container>
-       </>
     );
 }
 

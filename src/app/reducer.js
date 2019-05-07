@@ -16,6 +16,12 @@ export const reducer = (state, action) => {
 					return question;
 				})
 			}
+
+		case 'tick-time':
+			return {
+				...state,
+				timeLeft: action.payload
+			}
 		
 	  default:
 			return state;

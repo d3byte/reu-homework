@@ -18,6 +18,7 @@ function QuestionActions () {
             editQuestion(
                 {
                     ...currentQuestion,
+                    isCorrect: undefined,
                     isSkipped: true
                 },
                 dispatch
@@ -36,6 +37,7 @@ function QuestionActions () {
             {
                 ...currentQuestion,
                 isCorrect: isQuestionCorrect,
+                isSkipped: undefined
             },
             dispatch
         );

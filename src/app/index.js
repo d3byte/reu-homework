@@ -13,6 +13,8 @@ function App ({ questions, questionTypes }) {
     questions,
     questionTypes,
     currentQuestion: (questions || [])[0] || {},
+    // Seconds
+    timeLeft: 300
   }
 
   return (
