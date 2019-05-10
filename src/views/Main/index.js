@@ -2,6 +2,7 @@ import React from 'react';
 
 import QuestionLine from './components/QuestionLine';
 import QuestionActions from './components/QuestionActions';
+import QuestionSolution from './components/QuestionSolution';
 
 import Container from '../../components/Container';
 
@@ -12,6 +13,7 @@ function Main () {
         <Container className="main">
             <QuestionLine />
             <QuestionActions />
+            <QuestionSolution />
         </Container>
     );
 };

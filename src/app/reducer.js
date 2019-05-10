@@ -23,6 +23,16 @@ export const reducer = (state, action) => {
 				timeLeft: action.payload
 			}
 		
+		case 'select-multiple-answers':
+		case 'select-answer':
+			return {
+				...state,
+				currentQuestion: {
+					...state.currentQuestion,
+					givenAnswer: action.payload
+				}
+			}
+
 	  default:
 			return state;
 	}

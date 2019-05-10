@@ -4,6 +4,10 @@
     background: transparent;
 
     .question-line {
-        margin-bottom: $space * 2;
+        margin-bottom: $space * 3;
+    }
+
+    .question-solution {
+        margin-top: $space * 3;
     }
 }
