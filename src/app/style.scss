@@ -1,4 +1,17 @@
 .section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
     background: transparent;
     border-color: transparent;
+
+    & > *:first-child {
+        width: 70%;
+    }
+
+    & > *:last-child {
+        width: 28%;
+    }
+
 }

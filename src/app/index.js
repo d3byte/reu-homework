@@ -4,6 +4,7 @@ import { reducer } from './reducer';
 import { StateProvider } from '../utils/context';
 
 import Main from '../views/Main';
+import Sidebar from '../views/Sidebar';
 
 import './style.scss';
 import Container from '../components/Container';
@@ -21,6 +22,7 @@ function App ({ questions, questionTypes }) {
     <StateProvider initialState={initialState} reducer={reducer}>
       <Container className="section">
         <Main />
+        <Sidebar />
       </Container>
     </StateProvider>
   );

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 import { selectQuestion } from '../../../../utils/selectQuestion';
 import { editQuestion } from '../../../../utils/editQuestion';

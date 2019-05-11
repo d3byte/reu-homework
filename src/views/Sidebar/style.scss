@@ -1,0 +1,24 @@
+@import "../../style/spaces.scss";
+@import "../../style/typography.scss";
+
+.aside {
+    background: transparent;
+    margin-top: 24px;
+
+    &__question {
+        display: flex;
+        align-items: center;
+        margin-bottom: $space * 3;
+        cursor: pointer;
+
+        &__index {
+            transform: scale(0.8);
+        }
+
+        &__text {
+            flex-grow: 1;
+            padding-left: $space;
+            @include text-2();
+        }
+    }
+}
