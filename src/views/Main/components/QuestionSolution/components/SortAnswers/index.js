@@ -44,7 +44,6 @@ function SortAnswers () {
                             {...provided.droppableProps}
                             className="question-solution-type__variants"
                             ref={provided.innerRef}
-                            innerRef={provided.innerRef}
                         >
                             {
                                 currentQuestion.answers.map((answer, index) => (
@@ -55,7 +54,6 @@ function SortAnswers () {
                                                 {...providedItem.draggableProps}
                                                 {...providedItem.dragHandleProps}
                                                 ref={providedItem.innerRef}
-                                                innerRef={providedItem.innerRef}
                                                 key={answer.id} 
                                             >
                                                 <main className="question-solution-type__variants__item__text">
