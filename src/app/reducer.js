@@ -1,5 +1,14 @@
 export const reducer = (state, action) => {
 	switch (action.type) {
+		case 'update-answers':
+			return {
+				...state,
+				currentQuestion: {
+					...state.currentQuestion,
+					answers: action.payload
+				}
+			}
+
 	  case 'select-question':
 			return {
 				...state,

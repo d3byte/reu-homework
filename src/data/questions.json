@@ -8,14 +8,14 @@
         "id": 1,
         "question": "Путин – красавчик?",
         "type": 0,
-        "correctAnswer": 0,
+        "correctAnswer": 2200,
         "answers": [
             {
-                "id": 0,
+                "id": 2200,
                 "text": "Да"
             },
             {
-                "id": 1,
+                "id": 1337,
                 "text": "Нет"
             }
         ]
@@ -24,18 +24,18 @@
         "id": 2,
         "question": "Какими технологиями ты умеешь пользоваться?",
         "type": 1,
-        "correctAnswer": [0, 1, 2],
+        "correctAnswer": [19, 24, 32],
         "answers": [
             {
-                "id": 0,
+                "id": 19,
                 "text": "Javascript"
             },
             {
-                "id": 1,
+                "id": 24,
                 "text": "CSS"
             },
             {
-                "id": 2,
+                "id": 32,
                 "text": "HTML"
             }
         ]
@@ -44,22 +44,22 @@
         "id": 3,
         "question": "Отсортируйте в порядке возрастания",
         "type": 3,
-        "correctAnswer": [0, 1, 2],
+        "correctAnswer": [10, 11, 12, 13],
         "answers": [
             {
-                "id": 0,
+                "id": 10,
                 "text": "1945"
             },
             {
-                "id": 1,
+                "id": 11,
                 "text": "1941"
             },
             {
-                "id": 2,
+                "id": 12,
                 "text": "1943"
             },
             {
-                "id": 3,
+                "id": 13,
                 "text": "1942"
             }
         ]
@@ -68,25 +68,25 @@
         "id": 4,
         "question": "Сопоставьте дату с событием",
         "type": 4,
-        "correctAnswer": [[0, 3], [1, 2]],
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
         "answers": [
             [
                 {
-                    "id": 0,
+                    "id": 228,
                     "text": "1945"
                 },
                 {
-                    "id": 1,
+                    "id": "lel",
                     "text": "1941"
                 }
             ],
             [
                 {
-                    "id": 2,
+                    "id": "stringID",
                     "text": "Произошел инсульт жопы"
                 },
                 {
-                    "id": 3,
+                    "id": "anotherStringID",
                     "text": "Медики вылечили инсульт и на свет появился Рикардо"
                 }
             ]
