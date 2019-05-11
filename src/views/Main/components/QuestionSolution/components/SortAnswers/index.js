@@ -18,7 +18,7 @@ function SortAnswers () {
     // };
 
     const handleDragEnd = result => {
-        const { destination, source, draggableId } = result;
+        const { destination, source } = result;
         if (!destination || destination.droppableId === source.droppableId && destination.index === source.index) {
             return;
         }
