@@ -91,5 +91,415 @@
                 }
             ]
         ]
+    },
+    {
+        "id": "011",
+        "question": "Введите что-нибудь?",
+        "type": 2
+    },
+    {
+        "id": 1123,
+        "question": "Да или нет?",
+        "type": 0,
+        "correctAnswer": 2200,
+        "answers": [
+            {
+                "id": 2200,
+                "text": "Да"
+            },
+            {
+                "id": 1337,
+                "text": "Нет"
+            }
+        ]
+    },
+    {
+        "id": "0242",
+        "question": "Какими технологиями ты умеешь пользоваться?",
+        "type": 1,
+        "correctAnswer": [19, 24, 32],
+        "answers": [
+            {
+                "id": 19,
+                "text": "Javascript"
+            },
+            {
+                "id": 24,
+                "text": "CSS"
+            },
+            {
+                "id": 32,
+                "text": "HTML"
+            }
+        ]
+    },
+    {
+        "id": "03123",
+        "question": "Отсортируйте в порядке возрастания",
+        "type": 3,
+        "correctAnswer": [10, 11, 12, 13],
+        "answers": [
+            {
+                "id": 10,
+                "text": "1945"
+            },
+            {
+                "id": 11,
+                "text": "1941"
+            },
+            {
+                "id": 12,
+                "text": "1943"
+            },
+            {
+                "id": 13,
+                "text": "1942"
+            }
+        ]
+    },
+    {
+        "id": "041231",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "0198312",
+        "question": "Введите что-нибудь?",
+        "type": 2
+    },
+    {
+        "id": 1,
+        "question": "Да или нет?",
+        "type": 0,
+        "correctAnswer": 2200,
+        "answers": [
+            {
+                "id": 2200,
+                "text": "Да"
+            },
+            {
+                "id": 1337,
+                "text": "Нет"
+            }
+        ]
+    },
+    {
+        "id": "020987",
+        "question": "Какими технологиями ты умеешь пользоваться?",
+        "type": 1,
+        "correctAnswer": [19, 24, 32],
+        "answers": [
+            {
+                "id": 19,
+                "text": "Javascript"
+            },
+            {
+                "id": 24,
+                "text": "CSS"
+            },
+            {
+                "id": 32,
+                "text": "HTML"
+            }
+        ]
+    },
+    {
+        "id": "036789123",
+        "question": "Отсортируйте в порядке возрастания",
+        "type": 3,
+        "correctAnswer": [10, 11, 12, 13],
+        "answers": [
+            {
+                "id": 10,
+                "text": "1945"
+            },
+            {
+                "id": 11,
+                "text": "1941"
+            },
+            {
+                "id": 12,
+                "text": "1943"
+            },
+            {
+                "id": 13,
+                "text": "1942"
+            }
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
+    },
+    {
+        "id": "04adamwl",
+        "question": "Сопоставьте дату с событием",
+        "type": 4,
+        "correctAnswer": [["lel", "stringID"], [228, "anotherStringID"]],
+        "answers": [
+            [
+                {
+                    "id": "kek",
+                    "text": "2018"
+                },
+                {
+                    "id": "lel",
+                    "text": "2019"
+                }
+            ],
+            [
+                {
+                    "id": "stringID",
+                    "text": "Поступление в РЭУ"
+                },
+                {
+                    "id": "anotherStringID",
+                    "text": "Все еще не отчислили"
+                }
+            ]
+        ]
     }
 ]

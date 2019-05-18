@@ -4,11 +4,15 @@
 .aside {
     background: transparent;
     margin-top: 24px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    padding-bottom: $space;
 
     &__question {
         display: flex;
         align-items: center;
-        margin-bottom: $space * 3;
+        margin-bottom: $space;
         cursor: pointer;
 
         &__index {

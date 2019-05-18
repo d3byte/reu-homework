@@ -4,6 +4,8 @@
 .question-line {
     display: flex;
     align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
     &__caption {
         margin: 0 0 $space--smaller;
@@ -12,6 +14,7 @@
 
     &__item {
         transition: 0.3s background ease-in-out;
+        flex-shrink: 0;
 
         &--active {
             background: #3626A7 !important;
